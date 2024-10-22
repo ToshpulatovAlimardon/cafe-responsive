@@ -1,0 +1,57 @@
+/* Tobpar */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 50px;
+  background-color: #4a2b33;
+  color: #d27487;
+  box-shadow: 0 0px 7px aqua;
+}
+.navbar a {
+  margin: 0 10px;
+  transition: 0.3s;
+}
+.navbar a:hover {
+  color: aqua;
+}
+.topbar-logo {
+  height: 30px;
+}
+.topbar-logo img {
+  height: 100%;
+}
+.topbar-icons a {
+  margin: 0 10px;
+}
+@media (max-width: 780px) {
+  /* Tobpar */
+  .topbar {
+    height: 60px;
+    padding: 0 20px;
+  }
+  .navbar a {
+    margin: 0 5px;
+  }
+  .topbar-logo {
+    display: none;
+  }
+  .topbar-icons a {
+    margin: 0 5px;
+  }
+}
+@media (max-width: 400px) {
+  .topbar {
+    justify-content: center;
+  }
+  .topbar-icons {
+    display: none;
+  }
+}
+
+/* Header */
+.header img {
+  width: 100%;
+  margin-top: 20px;
+}
